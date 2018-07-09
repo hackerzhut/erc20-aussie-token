@@ -17,21 +17,21 @@
 
 - Install Truffle
 
-		``` npm install -g truffle ```
+		npm install -g truffle
 
   
 
 - Install NPM packages
 
-		``` npm install ```
+		npm install
 
 - Signup Infura to run truffle migrations
 
-		``` https://infura.io/signup ```
+		https://infura.io/signup
 
 Once your account is ready, Please add the `providerUrl` and `mnemonic` to config.json
 
-	```
+	
 
 	{
 
@@ -41,13 +41,13 @@ Once your account is ready, Please add the `providerUrl` and `mnemonic` to confi
 
 	}
 
-	```
+	
 
 ### Compile
 
   
 
-	``` truffle compile --all ```
+	truffle compile --all
 
   
 
@@ -57,7 +57,7 @@ Once your account is ready, Please add the `providerUrl` and `mnemonic` to confi
 
 - Local Deployment
 
-		 ``` truffle migrate --development ```
+		 truffle migrate --development
 
 PS: Need `ganache-cli` (previously known as `testrpc`) installed locally.
 
@@ -65,10 +65,10 @@ PS: Need `ganache-cli` (previously known as `testrpc`) installed locally.
 
 - Ropsten Deployment
 
-		``` truffle migrate --ropsten ```
+		truffle migrate --ropsten
 
   
 
 ### Testing
 
-	``` npm run test ```
+	npm run test
