@@ -1,0 +1,24 @@
+{
+  "name": "aussie_token",
+  "version": "1.0.0",
+  "description": "Custom ERC20 token",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ganache-cli": "^6.1.5",
+    "solc": "^0.4.24",
+    "truffle": "^4.1.13",
+    "truffle-hdwallet-provider": "0.0.5",
+    "web3": "^1.0.0-beta.34"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Saravana",
+  "license": "MIT"
+}
